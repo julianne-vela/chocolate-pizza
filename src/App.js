@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './header.js';
 import MainArticle from './image.js';
+import RecipeSteps from './recipe-instructions.js';
 
 export default class App extends React.Component {
   render() {
@@ -8,6 +9,7 @@ export default class App extends React.Component {
       <>
         <Header />
         <MainArticle />
+        <RecipeSteps />
       </>
     );
   }
