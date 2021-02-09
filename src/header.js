@@ -8,12 +8,14 @@ import flickr from './assets/flic-icon.png';
 import pinterest from './assets/pint-icon.png';
 import rss from './assets/rss-icon.png';
 import mail from './assets/mail-icon.png';
+import style from './App.module.css';
+
 
 
 export default class Header extends React.Component {
     render() {
         return (
-            <div className="header">
+            <div className={style.header}>
                 <img alt="fork and knife logo" src={logo} />
                 <h1>Delicious</h1>
                 <h2>THE BEST FOOD BLOG ON THE WEB.</h2>
